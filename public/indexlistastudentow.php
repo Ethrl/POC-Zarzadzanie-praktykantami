@@ -101,7 +101,7 @@
                                 </a>
                               </td>
                               <td>
-                              <a onclick="return confirm('Jesteś pewien, że chcesz usunąć wybrane dane? (Nie będzie można ich wrócić.')" href="?usun_id=<?php echo $value['student_id']; ?>" class="btn btn-small btn-primary btn-block mb-4 w-100" disabled>
+                              <a onclick="return confirm('Jesteś pewien, że chcesz usunąć wybrane dane? (Nie będzie można ich wrócić.)')" href="?usun_id=<?php echo $value['student_id']; ?>" class="btn btn-small btn-primary btn-block mb-4 w-100" disabled>
                                     Usuń
                                 </a>
                               </td>
@@ -128,8 +128,8 @@
                               }else{
                                 echo "<script>alert('Nie udało się usunąć.')</script>";
                               }
+                              header("Refresh:0");
                               header("location: ../public/indexlistastudentow.php");
-                              echo "<meta http-equiv='refresh' content='2, url='indexlistastudentow.php'>";
                             }
                             ?>
                             </tbody>
