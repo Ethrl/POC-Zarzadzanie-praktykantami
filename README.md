@@ -4,6 +4,7 @@ Aplikacja do zarządzania praktykantami
 Projekt wykonany w PHP OOP;
   
   Kilka uwag dot. aplikacji:
+  - Errory głównie wyświetlają się po znaku zapytania za plikiem.php (np. ../indexlogowanie.php?error=0)
   - Dodałem od siebie system rejestracji użytkownika (aby się zalogować i móc zarządzać studentami najpierw trzeba założyć konto) - mam nadzieję, że to trochę urozmaici aplikację; 
   - Dodałem również bibliotekę Bootstrap, aby wszystko wyglądało w miarę estetycznie.
 
