@@ -1,5 +1,6 @@
 # POC-Zarzadzanie-praktykantami
 Aplikacja do zarządzania praktykantami
+
 Projekt wykonany w PHP OOP;
   
   Kilka uwag dot. aplikacji:
