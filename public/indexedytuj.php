@@ -226,7 +226,7 @@
                                     "student_stanowisko" => $_POST['stanowisko'],
                                     "student_email" => $_POST['email'],
                                     "student_plec" => $_POST['plec'],
-                                    "student_hobby[]" => $_POST['student_hobby'],
+                                    //"student_hobby[]" => $_POST['student_hobby'],
                                     "student_jezykprogramowania" => $_POST['jezykprogramowania'],
                                     "student_zainteresowania" => $_POST['zainteresowania']
                                 );
